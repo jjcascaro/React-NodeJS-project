@@ -1,0 +1,43 @@
+# Node / JS
+**/node_modules/
+**/.pnp/
+.pnp.cjs
+
+# Build outputs
+**/build/
+**/dist/
+**/.next/
+**/.nuxt/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Testing / coverage
+coverage/
+.cypress/
+.playwright/
+
+# Caches
+.cache/
+.next/cache/
+**/.turbo/
+**/.parcel-cache/
+
+# Misc
+.DS_Store
+Thumbs.db
+.vercel/
+
+# IDE
+.vscode/
+.idea/
