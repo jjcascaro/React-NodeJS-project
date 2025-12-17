@@ -50,7 +50,10 @@ app.get('/api/me', (req, res) => {
 });
 
 const port = 8000;
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+module.exports = app;
+if (require.main === module) {
+    app.listen(port, () => {
+        console.log(`Server is running on port ${port}`);
+    });
+}
 
