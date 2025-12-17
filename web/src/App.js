@@ -23,7 +23,7 @@ function RedirectIfAuthed({ children }) {
 
 function App() {
   useEffect(() => {
-    // On app open, redirect based on auth handled by routes
+  
   }, []);
 
   return (

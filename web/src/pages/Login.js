@@ -42,7 +42,7 @@ export default function Login() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="user@email.com"
+            placeholder="hello@email.com"
           />
           <label>Password</label>
           <input
@@ -50,7 +50,7 @@ export default function Login() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="Password123"
+            placeholder="Pass123"
           />
           {error && <div style={{ color: 'red', marginTop: 8 }}>{error}</div>}
           <button className="btn" type="submit" disabled={loading}>
